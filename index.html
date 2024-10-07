@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resume of Ujjwal Kumar Mishra</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0a192f;
+  color: #dbe2ef;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #112240;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #64ffda;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #64ffda;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #8892b0;
+}
+
+.header-right {
+  text-align: right;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 1.8em;
+  margin-top: 0;
+  color: #64ffda;
+  border-bottom: 1px solid #64ffda;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Summary Section */
+.summary {
+  margin-bottom: 30px;
+}
+
+.summary p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: #ccd6f6;
+}
+
+/* Skills Section */
+.skills ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.skills li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #8892b0;
+}
+
+/* Education Section */
+.education {
+  margin-bottom: 30px;
+}
+
+.education p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: #ccd6f6;
+}
+
+/* Projects Section */
+.projects {
+  margin-bottom: 30px;
+}
+
+.project-item h3 {
+  margin: 0;
+  font-size: 1.3em;
+  color: #dbe2ef;
+}
+
+.project-item p {
+  font-size: 1.1em;
+  color: #8892b0;
+}
+
+/* Experience Section */
+.experience-item h3 {
+  margin: 0;
+  font-size: 1.3em;
+  color: #dbe2ef;
+}
+
+.experience-item p {
+  font-size: 1.1em;
+  color: #8892b0;
+}
+
+.experience-item ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.experience-item li {
+  color: #8892b0;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #8892b0;
+  border-top: 1px solid #64ffda;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+/* Hover Effects */
+a:hover, a:focus {
+  color: #64ffda;
+  text-decoration: underline;
+}
+/* Media Queries for Responsiveness */
+
+/* For tablets and small desktops */
+@media (max-width: 768px) {
+  .resume-container {
+    width: 90%;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  .header-right {
+    margin-top: 10px;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+
+  .skills li,
+  .education p,
+  .projects p,
+  .experience-item p {
+    font-size: 1em;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .resume-container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  .header-right {
+    font-size: 0.9em;
+  }
+
+  section h2 {
+    font-size: 1.3em;
+  }
+
+  .skills li,
+  .education p,
+  .projects p,
+  .experience-item p {
+    font-size: 0.9em;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
+}
+
+    
+  </style>
+</head>
+<body>
+  <!-- navbar  -->
+     <div class="navbar">
+      <div class="nav">
+        <img id="img1" src="C:\Users\HOME\Desktop\coding\html\The World Of CSE\my portfolio\assets\cse.jpg" alt="" class="logo" />
+      </div>
+      <div class="name">
+        <p id="ujjwal">Ujjwal's   Portfolio</p>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="C:\Users\HOME\Desktop\coding\html\The World Of CSE\my portfolio\index.html"> Home</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- nav bar ends  -->
+   
+  <div class="resume-container">
+    <!-- Header Section -->
+    <header>
+      <img src="photo.jpg" alt="img">
+      <div class="header-left">
+        <h1>Ujjwal Kumar Mishra</h1>
+        <p>Computer Science Engineer</p>
+      </div>
+      <div class="header-right" id="contact">
+        <p>Email: uk.mishr99@gmail.com</p>
+        <p>Phone: +91 6205482672</p>
+        <p>Location: HAZARIBAG, India</p>
+      </div>
+    </header>
+   <!-- About Me Section -->
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate and driven Computer Science Engineer with a deep interest in solving complex problems through technology. My strengths lie in web development, software engineering, and continuously learning new technologies. I enjoy working in collaborative environments that foster innovation and creativity. Outside of coding, I love to explore new technologies, read tech blogs, and engage in personal projects.
+      </p>
+    </section>
+
+    <!-- Career Goals Section -->
+    <section class="career-goals">
+      <h2>Career Goals</h2>
+      <p>
+        My primary goal is to establish myself as a proficient software developer with a strong focus on web development and software engineering. I aspire to contribute to projects that have a meaningful impact and solve real-world problems through technology. In the future, I aim to expand my expertise in cloud computing and artificial intelligence while taking on leadership roles to help mentor and inspire others in the tech industry.
+      </p>
+    </section>
+    
+    <!-- Hobbies Section -->
+    <section class="hobbies">
+      <h2>Hobbies</h2>
+      <p>
+        When I’m not working on coding projects, I enjoy spending my time pursuing various hobbies such as:
+      </p>
+      <ul>
+        <li>Reading technology blogs and exploring new trends in the tech world.</li>
+        <li>Playing chess to enhance strategic thinking and problem-solving skills.</li>
+        <li>Hiking and nature photography to stay active and creative.</li>
+        <li>Playing guitar and listening to a wide range of music genres.</li>
+      </ul>
+    </section>
+
+    <!-- Professional Summary Section -->
+    <section class="summary">
+      <h2>Professional Summary</h2>
+      <p>
+        A highly motivated and detail-oriented Computer Science graduate with a diploma in Computer Science Engineering. Skilled in software development, web development, and problem-solving. Seeking to contribute technical expertise in a dynamic work environment.
+      </p>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="skills" id="skill">
+      <h2>Skills</h2>
+      <ul>
+        <li>Proficient in HTML, CSS, JavaScript</li>
+        <li>Knowledge of Python, C++, java(learning) </li>
+        <li>Responsive Web Design</li>
+        <li>Database Management (MySQL)</li>
+        <li>Version Control (Git, GitHub)</li>
+        
+      </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+      <h2>Education</h2>
+      <p><strong>Diploma in Computer Science Engineering</strong></p>
+      <p>GOVERNMENT POLYTECHNIC DHANBAD, India | 2022 - 2025</p>
+      <p>GPA: 8.5/10</p>
+      
+      <p><strong> Intermediate in Science(12th)</strong></p>
+      <p>Saraswati Shishu Vidya Mandir Kumhartoli Parnala ,Hazaribagh jharkhnad, India | 2021 - 2022</p>
+      <p>Percentage:78.4%</p>
+      
+      
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="project">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3>Portfolio Website</h3>
+        <p>Developed a personal portfolio website using HTML, CSS, and JavaScript to showcase skills, projects, and experience.</p>
+      </div>
+      
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+      <h2>TRAINING/INTERNSHIP</h2>
+      <div class="experience-item">
+        <h3>Web Developer Intern</h3>
+        <p>AERONSPIRE TECHNOLOGY, DHANBAD, India | SEPTEMBER 2024 - OCTOBER 2024</p>
+        <ul>
+          <li>Worked on the front-end development team to build responsive websites.</li>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>© 2024 Ujjwal Kumar Mishra. All Rights Reserved.</p>
+    </footer>
+    <script>
+      // Detect screen size and adjust layout dynamically
+function adjustLayout() {
+  const screenWidth = window.innerWidth;
+
+  // Get references to the sections
+  const summarySection = document.querySelector('.summary');
+  const skillsSection = document.querySelector('.skills');
+  const experienceSection = document.querySelector('.experience');
+
+  // If screen width is less than 600px, hide some sections
+  if (screenWidth < 600) {
+    summarySection.style.display = 'none';
+    experienceSection.style.display = 'none';
+  } else {
+    summarySection.style.display = 'block';
+    experienceSection.style.display = 'block';
+  }
+}
+
+// Run the adjustLayout function on page load and when resizing the window
+window.addEventListener('resize', adjustLayout);
+window.addEventListener('load', adjustLayout);
+
+    </script>
+  </div>
+</body>
+</html>
